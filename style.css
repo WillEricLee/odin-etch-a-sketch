@@ -1,16 +1,33 @@
-.boxes {
-    display: flex;
+body {
+    display:flex;
     flex-direction: column;
     align-items: center;
     height: 100vh;
     width: 100vw;
 }
 
+.square-button-box {
+    display: flex;
+    height:10vh;
+    flex:1;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+}
+
 .row {
     display:flex;
     background-color: white;
-    height: 25vh;
-    width: 100vh;
+    height: 22.5vh;
+    width: 90vh;
 }
 
 .box {
